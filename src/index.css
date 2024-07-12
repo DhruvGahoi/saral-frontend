@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'kalra', sans-serif;
+}
+
+textarea {
+  font-family: 'kalra', sans-serif;
+}
