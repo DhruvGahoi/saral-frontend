@@ -25,7 +25,14 @@ const NavItem : React.FC<NavItemType> = ({
                 {text}
             </Typography>
             <Box className = {styles.spacer} />
-            
+            {dataCount && (
+                <Typography sx={{
+                    color: isActive ? 'common.white' : 'text.primary',
+                    backgroundColor : isActive ? 'common.black' : 'background.default'
+                }} className={styles.data_count_text}>{dataCount}</Typography>
+            )}
         </Box>
     )
 }
+
+export default NavItem;

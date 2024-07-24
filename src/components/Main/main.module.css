@@ -1,0 +1,15 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    height: 100svh;
+    display: flex;
+    overflow: hidden;
+}
+  
+.main {
+    width: calc(100vw - 220px);
+    padding: 30px 40px;
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
