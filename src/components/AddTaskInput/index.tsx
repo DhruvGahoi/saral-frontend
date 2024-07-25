@@ -1,8 +1,8 @@
 import { FormEvent, useRef } from 'react';
-import { useTaskService } from '../services/tasks';
-import { useStore } from '../contexts/Store';
-import { Task } from '../types/global';
-import { ACTIONS } from '../constants/AppConstants';
+import { useTaskService } from '../../services/tasks';
+import { useStore } from '../../contexts/Store';
+import { Task } from '../../types/global';
+import { ACTIONS } from '../../constants/AppConstants';
 import AddTaskInputPresentation from './Presentation';
 
 
